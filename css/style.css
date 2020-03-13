@@ -1,3 +1,7 @@
+h1{
+    font-size: large;
+}
+
 body {
     font-family: "Raleway", sans-serif;
 }
@@ -15,6 +19,7 @@ ul.logo{
 li.logo{
     display: inline-block;
     margin: 8px;
+    opacity: .5;
 }
 
 a{
@@ -34,13 +39,14 @@ background-image: url("../img/jane.jpg");
 background-repeat:no-repeat;
 background-size: cover;
 background-position:center;
+
 }
 
 #rodape{
     background-color: lightgray;
     padding: 10px;
     text-align: center;
-
+    border: 1px solid lightgray;
 }
 
 #about{
@@ -63,8 +69,16 @@ background-position:center;
 }
 
 #contact{
-    width: 640px;
+    width: 700px;
     margin-left:auto;
     margin-right: auto;
+
+}
+
+#barraDeLinks{
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid lightgray;
 
 }
