@@ -53,14 +53,13 @@ background-position:center;
     text-align: center;
 }
 
-#aboutphoto{
-    width:30%;
-    height: 300px;
-    background-image: url("../img/jane2.jpg");
-    background-position:center;
-    margin-left: auto;
-    margin-right: auto;
+#aboutPhoto{
+    width:35%;
+    height: 35%;
+    margin: 0 auto;
+    display:block;
     }
+
 
 #music{
     width: 640px;
@@ -80,5 +79,14 @@ background-position:center;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid lightgray;
+    box-sizing: border-box;
 
+}
+
+.contact form *{
+    display: block;
+}
+.contact-form form, iframe{
+    display: inline-block;
+    width: 49%;
 }
